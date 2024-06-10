@@ -1,5 +1,5 @@
 import pytest
-from Flask-JWT-Extended import create_access_token
+from flask-jwt-extended import create_access_token
 
 from app.database import db
 from app.run import app
