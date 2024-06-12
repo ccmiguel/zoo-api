@@ -1,9 +1,8 @@
 import pytest
-from flask-jwt-extended import create_access_token
+from flask_jwt_extended import create_access_token
 
 from app.database import db
 from app.run import app
-
 
 @pytest.fixture(scope="module")
 def test_client():
